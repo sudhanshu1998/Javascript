@@ -1,0 +1,102 @@
+
+.telephone{
+        background-color: deeppink;
+        height:100x;
+/*        position:absolute*/
+       z-index: +1;
+    }
+    .telephone h5{
+        text-align: center;
+        color: white;
+    }
+    .telephone p{
+        color: whitesmoke;
+        text-align: center;
+        top:0;
+            margin-bottom: 1px;
+    }
+    .email{
+        background-color: blue;
+        height: 100px;
+/*        position: absolute;*/
+        z-index: +1;
+    }
+    .travel_icon{
+        position: absolute;
+        left: 4%;
+        bottom: 11%;
+    }
+
+.email h5{
+        text-align: center;
+        color: white;
+    }
+    .email p{
+        color: whitesmoke;
+        text-align: center;
+        top:0;
+            margin-bottom: 1px;
+    }
+    .email_icon{
+        position: absolute;
+    }
+@media screen and (max-width: 480px) {
+     .travel_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 162px;
+}
+}
+@media screen and (max-width: 768px) {
+     .travel_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    position: absolute;
+         left: 25px;
+}
+}
+@media screen and (max-width: 1024px) {
+     .travel_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 172px;
+}
+}
+@media screen and (max-width: 480px) {
+     .travel_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 211px;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+     .email_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 162px;
+}
+}
+@media screen and (max-width: 768px) {
+     .email_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    position: absolute;
+         left: 25px;
+}
+}
+@media screen and (max-width: 1024px) {
+     .email_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 190px;
+}
+}
+@media screen and (max-width: 1200px) {
+     .email_icon i {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 211px;
+}
+}

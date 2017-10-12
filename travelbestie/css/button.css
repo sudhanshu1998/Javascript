@@ -1,0 +1,33 @@
+.rainbow-button {
+  width:calc(13vw + 6px);
+  height:calc(2vw + 6px);
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-transform:uppercase;
+  font-size:3vw;
+  font-weight:bold;
+        position: absolute;
+        margin-left: 110px;
+       top:15px;
+}
+.rainbow-button:after {
+  content:attr(alt);
+  width:13vw;
+  height:2vw;
+  background-color:#191919;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.rainbow-button:hover {
+  animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
